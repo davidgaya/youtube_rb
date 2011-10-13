@@ -1,0 +1,26 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    autotest-standalone (4.5.8)
+    fakeweb (1.3.0)
+    httparty (0.8.1)
+      multi_json
+      multi_xml
+    multi_json (1.0.3)
+    multi_xml (0.4.1)
+    notifier (0.1.4)
+    redgreen (1.2.2)
+    shoulda-context (1.0.0.beta1)
+    test_notifier (0.4.0)
+      notifier
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  autotest-standalone
+  fakeweb
+  httparty
+  redgreen
+  shoulda-context
+  test_notifier
