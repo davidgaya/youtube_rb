@@ -1,0 +1,9 @@
+This Youtube downloader is tiny and uncomplete.
+
+It can get your expiring and customized URI for a video stream.
+
+@video = YoutubeVideo.new "http://www.youtube.com/watch?v=zzG4K2m_j5U"
+@video.stream_uri
+
+Once you have the stream_uri, you can download it, and process it using ffmpeg or gstreamer.
+

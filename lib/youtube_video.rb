@@ -21,6 +21,10 @@ class YoutubeVideo
     params(@uri.query)['v'].first
   end
 
+  def title
+    params(extended_info.body)['title'].first if extended_info.code == 200
+  end
+
   def url_encoded_fmt_stream_map
     params(extended_info.body)['url_encoded_fmt_stream_map'].first if extended_info.code == 200
   end
