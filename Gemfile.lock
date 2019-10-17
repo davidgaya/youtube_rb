@@ -7,7 +7,7 @@ GEM
       multi_json
       multi_xml
     multi_json (1.0.3)
-    multi_xml (0.4.1)
+    multi_xml (0.6.0)
     notifier (0.1.4)
     redgreen (1.2.2)
     shoulda-context (1.0.0.beta1)
